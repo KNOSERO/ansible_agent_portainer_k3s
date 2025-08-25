@@ -1,0 +1,3 @@
+- name: Apply Portainer Agent YAML with kubectl
+  ansible.builtin.command: >
+    kubectl apply -f https://downloads.portainer.io/ce2-27/portainer-agent-k8s-lb.yaml
